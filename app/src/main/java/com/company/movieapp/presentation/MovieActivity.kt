@@ -58,6 +58,7 @@ class MovieActivity : AppCompatActivity() {
         menuInflater.inflate(R.menu.search, menu)
         val searchView = menu?.findItem(R.id.action_search)?.actionView as SearchView
         searchView.maxWidth = Int.MAX_VALUE
+        searchView.queryHint = "Search"
 
         if (viewModel.searchText.isNotEmpty()) {
             menu.findItem(R.id.action_search)?.expandActionView()

@@ -30,6 +30,7 @@
         <item name="colorPrimary">@color/black</item>
         <item name="android:textColorPrimary">@color/white</item>
         <item name="android:textColorSecondary">@color/white</item>
+        <item name="android:textColorHint">#66FFFFFF</item>
     </style>
 
     <style name="TextSmall" parent="">
